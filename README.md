@@ -34,14 +34,14 @@ and a bit more...
   
 
 
-# Installation
+# Installation for script
 1. Install the image handling system dependencies on ```bash opt/system-requirements.sh```
 2. Create a virtualenv and install the requirements  ```pip install -r opt/requirements.pip```
 3. Follow the instructions on ```src/config.py``` to get the whatsapp credentials.  
 4. Then just run the server with  ```python src/server.py```  
 
 # Or with Docker!
-$ git clone https://github.com/joaoricardo000/whatsapp-bot-seed/  
+$ git clone https://github.com/TheKingR09/whatsapp-bot-seed/  
 $ cd whatsapp-bot-seed  
 *(Edit Dockerfile to include your credentials)*  
 $ docker build -t whatsapp-bot .  
@@ -51,4 +51,6 @@ The server will be running. Access http://localhost:9005 (default: admin:passwor
 
 
 #### To create your own views, check out ```src/router.py``` and ```src/view/basic_views.py``` for examples.
+
+Thanks for look that
 
